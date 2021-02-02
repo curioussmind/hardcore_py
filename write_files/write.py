@@ -1,9 +1,9 @@
 with open('topics.txt', 'w') as output_file:
-    output_file.write('Computer Science')
+    output_file.write('Computer Science\nf')
 
 # we can append without overweite the existing content by using 'a'
 with open('topics.txt', 'a') as output_file:
-    output_file.write(' & Software Engineerng')
+    output_file.write('Software Engineerng')
 
 with open('topics.txt', 'r') as read_topics:
     contents = read_topics.read()
