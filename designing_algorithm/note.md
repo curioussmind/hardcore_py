@@ -1,0 +1,3 @@
+1. the most effective way to design algorithms is to use top-down design, in which goals are broken down into subgoals until the steps are small enough to be translated directly into a programming language
+2. almost all problems have more than one correct solution. choosing between them often involves a trade-off between simplicity and performance
+3. the performance of a program can be characterized by how much time and memory it uses. this can be determined experimentally by profiling its execution. one way to prifile time is with function perf_counter from module time. 
