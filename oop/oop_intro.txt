@@ -1,0 +1,12 @@
+OOB involves at least these phases:
+1. understanding the problem domain
+2. figuring out what type(s) you might want
+3. figuring out what features we want our type to have
+4. writing a class that represent this type
+5. testing our code
+
+# every class in python is derived from class object -> every instance of every class is an object
+
+Example of simplest class
+>>> class Book:
+        """information about a book""""
