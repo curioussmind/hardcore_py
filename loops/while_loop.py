@@ -31,4 +31,38 @@ while rabbits > 0:
 # pass --> does nothing at all: it;s an empty statement placeholder
 # loop else block --> runs if and only if the loop is exited normally
 
+# General format with break and continue statement
+#while test:
+#    statements
+#    if test: break
+#    if test: continue
+#else: 
+#    statements
+
+#pass 
+#while True: pass
+#or 
+#while True: ...
+
+#continue
+x = 10
+while x:
+    x = x - 1 # or x -= 1
+    if x % 2 != 0: continue #if odd --> skip print
+    print(x, end=' ')
+
+x = 10
+while x:
+    x = x - 1
+    if x % 2 == 0:
+        print(x, end=' ')
+
+# break
+# causes an immediate exit from loop
+while True:
+    name = input('Enter name: ')
+    if name == "stop": break
+    age = input('Enter age: ')
+    print('Hello', name, '=>', int(age) ** 2)
+
 
