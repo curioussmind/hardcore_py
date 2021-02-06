@@ -19,9 +19,16 @@ while a < b:
     a += 1  # equal to a = a + 1
 # expected output >>> 0 1 2 3 4 5 6 7 8 9
 
-
 rabbits = 3
 while rabbits > 0:
     print(rabbits)
     rabbits = rabbits - 1
+# expected output 2 1
+
+# BREAK , CONTINUE, PASS AND THE LOOP ELSE
+# break --> jumps out of the closest enclosing loop (past the entire loop statement)
+# continue --> jumps to the top of the closest enclosing loop (to the loop's header)
+# pass --> does nothing at all: it;s an empty statement placeholder
+# loop else block --> runs if and only if the loop is exited normally
+
 
