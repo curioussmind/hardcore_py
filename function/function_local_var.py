@@ -7,9 +7,9 @@ into separate steps
 print("polynomial ax^2 + bx + c!")
 
 def quadratic(a, b, c, x):
-    x1 = a * x ** 2
-    x2 =  b * x
-    x3 = c
+    x1 = a * x ** 2 #local var  |
+    x2 =  b * x     #local var  | >> can't be used outside function
+    x3 = c          # local var |
 
     return x1 + x2 + x3
 
